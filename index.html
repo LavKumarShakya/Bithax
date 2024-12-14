@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="city-logo">
+            <div>
+                <h2><img src="map-pin-fill.png" alt="Location Icon" style="height: 35px;width: 40px;">LONDON</h2>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Location..." style="border-radius: 50px;width: 300px; background-color: rgba(0,0,0,0.1);">
+                <img src="search-line.png" alt="Search Icon" style="height: 44px;">
+            </div>
+        </div>
+        <div class="container1">
+            <div class="current-weather">
+                <div class="temperature">
+                    <h1>25°C
+                        <img src="sun-cloudy-fill.png" alt="Sun Icon" style="height: 30px;">
+                    </h1>
+                    <span>London, Haze</span>         
+                </div>
+            </div>
+            <div class="current-time">
+                <h3>Good Morning!</h3>
+                <p>08:44:56</p>
+                <span>Saturday, 14th September</span>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="nav-tabs">
+                <button class="button-28" role="button">Overview</button>
+                <button class="button-28" role="button">Weather</button>
+                <button class="button-28" role="button">Transportation</button>
+                <button class="button-28" role="button">News & Events</button>
+                <button class="button-28" role="button">Sports</button>
+                <button class="button-28" role="button">Others</button>
+            </div>
+
+
+        </div>
+    </main>
+
+    <div class="main-dashboard">
+        <div class="card weather-section">
+            <h2>Weather</h2>
+            <div class="current-weather">
+                <div class="current-temp">
+                    <p>25°C</p>
+                </div>
+                <div class="weather-icon">
+                    <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=Sun" alt="Sun">
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <div class="day">
+                    <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=Sun" alt="Sun">
+                    <p>Mon</p>
+                    <p>25°C</p>
+                </div>
+                <div class="day">
+                    <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=Sun" alt="Sun">
+                    <p>Tue</p>
+                    <p>26°C</p>
+                </div>
+                <div class="day">
+                    <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=Cloud" alt="Cloud">
+                    <p>Wed</p>
+                    <p>24°C</p>
+                </div>
+                <div class="day">
+                    <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=Rain" alt="Rain">
+                    <p>Thu</p>
+                    <p>23°C</p>
+                </div>
+                <div class="day">
+                    <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=Sun" alt="Sun">
+                    <p>Fri</p>
+                    <p>27°C</p>
+                </div>
+            </div>
+        </div>
+        <div class="card air-quality-section">
+            <h2>Air Quality</h2>
+             <div class="air-quality-info">
+                <div class="air-quality-chart">
+                    <p>25°C</p>
+                    <div>
+
+                    </div>
+                </div>
+                <div class="air-quality-indexes">
+                    <p>O3: 45</p>
+                    <p>CO: 10</p>
+                    <p>SO2: 5</p>
+                    <p>NO2: 20</p>
+                </div>
+            </div>
+        </div>
+        <div class="card traffic-condition-section">
+            <h2>Traffic Condition</h2>
+            <div class="traffic-status">
+                <div class="traffic-info">
+                    <p>Main Street: <span class="status-marker green"></span> Good</p>
+                    <p>High Street: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="status-marker yellow"></span> Moderate</p>
+                    <p>Park Lane: &nbsp;&nbsp;&nbsp;<span class="status-marker red"></span> Heavy</p>
+                    <p>Side Road: &nbsp;<span class="status-marker green"></span> Good</p>
+                    <p>Back Road: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="status-marker yellow"></span> Moderate</p>
+                    <p>Highway: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="status-marker red"></span> Heavy</p>
+                </div>
+            </div>
+        </div>
+        <div class="card data-visualization-section">
+            <h2>Data Visualization</h2>
+            <div class="line-graph"></div>
+            <div class="bar-graphs">
+                <div class="bar-graph"></div>
+                <div class="bar-graph"></div>
+                <div class="bar-graph"></div>
+            </div>
+        </div>
+        <div class="card events-section">
+            <h2>Upcoming Events</h2>
+            <div class="event-news-section">
+                <div class="event-list">
+                    <div class="event-item">
+                        <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=E1" alt="Event 1">
+                        <p>Event 1</p>
+                    </div>
+                    <div class="event-item">
+                        <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=E2" alt="Event 2">
+                        <p>Event 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="card news-section">
+            <h2>News</h2>
+            <div class="event-news-section">
+                <div class="news-list">
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=N1" alt="News 1">
+                        <p>News 1</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="https://via.placeholder.com/60x60/87CEEB/000000?text=N2" alt="News 2">
+                        <p>News 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card local-weather-section">
+            <h2>Local Weather</h2>
+            <div class="weather-trends">
+                <div class="bar-chart"></div>
+                <div class="line-chart"></div>
+            </div>
+        </div>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const timeElement = document.querySelector('.time');
+            timeElement.textContent = now.toLocaleString('en-US', {
+                weekday: 'long',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+    </script>
+</body>
+</html>
